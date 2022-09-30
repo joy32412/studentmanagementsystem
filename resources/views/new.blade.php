@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="{{ Route('view')}}">new</a>
+    <h1>this is a new blade</h1>
 </body>
 </html>

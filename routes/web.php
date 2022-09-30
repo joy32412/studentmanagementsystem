@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BladeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/rwefyg',[BladeController::class,'blade'])->name('view');
